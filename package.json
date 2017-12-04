@@ -1,10 +1,9 @@
 {
   "scripts": {
-    "start": "node --experimental-modules .",
+    "start": "/usr/local/n/versions/node/9.1.0/bin/node --experimental-modules index.mjs",
     "test": "eslint index.js"
   },
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
