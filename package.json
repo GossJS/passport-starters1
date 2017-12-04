@@ -6,14 +6,15 @@
   "version": "1.0.0",
   "dependencies": {
     "body-parser": "^1.17.2",
+    "connect-ensure-login": "^0.1.1",
     "express": "^4.15.4",
     "express-session": "^1.15.5",
-    "morgan": "^1.6.1",
     "mongoose": "^4.11.7",
+    "morgan": "^1.6.1",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0",
     "passport-facebook": "^2.0.0",
-    "connect-ensure-login": "^0.1.1"
+    "passport-local": "^1.0.0",
+    "request": "^2.83.0"
   },
   "devDependencies": {
     "eslint": "^4.5.0",
