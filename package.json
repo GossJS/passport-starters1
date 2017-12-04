@@ -1,22 +1,20 @@
 {
   "scripts": {
-    "start": "babel-node .",
+    "start": "/usr/local/n/versions/node/9.1.0/bin/node --experimental-modules index.mjs",
     "test": "eslint index.js"
   },
   "version": "1.0.0",
-  "main": "index.js",
   "dependencies": {
     "body-parser": "^1.17.2",
     "express": "^4.15.4",
     "express-session": "^1.15.5",
     "mongoose": "^4.11.7",
+    "morgan": "^1.6.1",
     "passport": "^0.4.0",
-    "passport-local": "^1.0.0"
+    "passport-local": "^1.0.0",
+    "request": "^2.83.0"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.0",
-    "babel-preset-stage-0": "^6.24.1",
     "eslint": "^4.5.0",
     "eslint-config-airbnb": "^15.1.0",
     "eslint-plugin-import": "^2.7.0",
