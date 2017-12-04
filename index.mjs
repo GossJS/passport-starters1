@@ -33,7 +33,7 @@ app
 passport.use(new passportFacebook.Strategy({
   clientID: process.env.CLIENT_ID,
   clientSecret: process.env.CLIENT_SECRET,
-  callbackURL: 'http://ikoder.xyz/auth/fb/done',
+  callbackURL: `http://${process.env.HOST}/auth/fb/done`,
 },
 (accessToken, refreshToken, profile, done) => done(null, profile)
 ));
