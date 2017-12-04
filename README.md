@@ -21,8 +21,12 @@
 После этого можно будет запустить приложение примерно так:
 
 ```
-CLIENT_ID=319029763162166 CLIENT_SECRET=e5f107e2c9bba18a1e8af4d1541d858e npm start
+CLIENT_ID=319029763162169 CLIENT_SECRET=85f107e2c9bba18a1e8af4d1541d858e HOST=ikoder.xyz npm start
 ```
+
+Обратите внимание на HOST= - это значение фигурирует в 
+
+![alt scheme](fbstrategy4.png "Должно выглядеть примерно так")
 
 **Для самостоятельного исследования:**
 
